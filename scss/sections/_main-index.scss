@@ -1,0 +1,118 @@
+.contenedor-home-txt {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 370px;
+    margin-bottom: 367px;
+}
+
+.imgs-home-1,
+.imgs-home-2,
+.imgs-home-3,
+.imgs-home-4,
+.imgs-home-5,
+.imgs-home-6,
+.imgs-home-7,
+.imgs-home-8,
+.imgs-home-9,
+.imgs-home-10,
+.imgs-home-11,
+.imgs-home-12,
+.imgs-home-13,
+.imgs-home-14,
+.imgs-home-15 {
+    position: fixed;
+    z-index: 9999;
+    max-width: 223px;
+    animation: myAnim 3s ease 0s 1 normal forwards;    
+}
+
+.imgs-home-1 {
+    bottom: 632px;
+    right: -35px;
+}
+
+.imgs-home-2 {
+    bottom: -5px;
+    right: 400px;
+}
+
+.imgs-home-3 {
+    bottom: 138px;
+    right: 1272px;
+}
+
+.imgs-home-4 {
+    bottom: 608px;
+    right: 1400px;
+}
+
+.imgs-home-5 {
+    bottom: 80px;
+    right: 872px;
+}
+
+.imgs-home-6 {
+    bottom: 650px;
+    right: 800px;
+}
+
+.imgs-home-7 {
+    bottom: 563px;
+    right: 472px;
+}
+
+.imgs-home-8 {
+    bottom: 611px;
+    right: 901px;
+}
+
+.imgs-home-9 {
+    bottom: 108px;
+    right: 650px;
+}
+
+.imgs-home-10 {
+    bottom: 302px;
+    right: 142px;
+}
+
+.imgs-home-11 {
+    bottom: 494px;
+    right: 262px;
+}
+
+.imgs-home-12 {
+    bottom: 418px;
+    right: 1649px;
+}
+
+.imgs-home-13 {
+    bottom: 650px;
+    right: 1214px;
+}
+
+.imgs-home-14 {
+    bottom: 74px;
+    right: 1592px;
+}
+
+.imgs-home-15 {
+    bottom: 321px;
+    right: 1467px;
+}
+
+.meme {
+    position: fixed;
+    z-index: 4000;
+    height: 300px;
+    width: 60px;
+    bottom: 360px;
+    left: 2000px;
+    /* Animacion */
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: 9999;
+}

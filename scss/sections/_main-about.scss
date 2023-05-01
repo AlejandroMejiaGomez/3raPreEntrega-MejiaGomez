@@ -1,0 +1,121 @@
+.imgs-contact-7 {
+    position: absolute;
+    bottom: 0px;
+    right: 1350px;
+    z-index: -1;
+    max-width: 450px;
+}
+
+.imgs-contact-8 {
+    position: absolute;
+    bottom: -800px;
+    right: 1100px;
+    z-index: -1;
+    max-width: 300px;
+}
+
+.imgs-contact-9 {
+    position: absolute;
+    bottom: 400px;
+    right: 200px;
+    z-index: -1;
+    max-width: 444px;   
+}
+
+.imgs-contact-8 {
+    z-index: 9999;
+    animation: myAnim 3s ease 0s 1 normal forwards;
+}
+
+.imgs-contact-7,
+.imgs-contact-9 {
+    z-index: -1;
+    animation: myAnim 3s ease 0s 1 normal forwards;
+}
+
+.texto-inicial-general {
+    grid-area: texto-inicial-general;
+    font-family: 'Emilea';
+    font-weight: lighter;
+    font-size: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+    /* padding-left: 50px; */
+    animation: myAnim 2s ease 0s 1 normal forwards;
+
+    .contenedor-home-txt-about {
+        animation: myAnim 2s ease 0s 1 normal forwards;
+        font-size: 80px;
+        text-align: center;
+        margin-left: 500px;
+        margin-right: 500px;
+        padding-top: 200px;
+    }
+
+
+}
+
+.contenedor-arrow {
+    overflow: hidden;
+    
+    .arrow-about {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 50px;
+        max-width: 100%;
+        animation: palpitar 0.7s ease-in-out infinite alternate;
+        margin: 50px;
+    }
+    
+}
+
+.AboutFlex {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    font-family: 'Emilea';
+    animation: myAnim 2s ease 0s 1 normal forwards;
+
+    .QuestionsFlex {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 40px;
+        font-weight: bolder;
+        transition: transform 0.5s ease;
+
+        &:hover {
+            transform: scale(1.02);
+        }
+
+        .AnswersFlex {
+            margin-left: 700px;
+            text-align: justify;
+            font-size: 20px;
+            font-weight: lighter;
+            color: black;
+            text-decoration: none;
+        }
+
+    }
+
+}
+
+#contacto {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 9999;
+    width: 70px;
+    height: 70px;
+    animation: palpitar 0.7s ease-in-out infinite alternate;
+}

@@ -1,0 +1,114 @@
+.grid-contacto {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "formulario";
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Emilea';
+        font-size: 15px;
+        font-weight: normal;
+        text-align: left;
+        text-transform: uppercase;
+        animation: myAnim 2s ease 0s 1 normal forwards;
+        margin-bottom: 354px;
+
+        .h1-contacto {
+            position: relative;
+            font-family: 'Emilea';
+            font-size: 100px;
+            font-weight: normal;
+            text-align: justify;
+            color: #000000;
+            margin-top: 350px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 0px;
+            animation: myAnim 2s ease 0s 1 normal forwards;
+        }
+
+        .p {
+            padding-top: 10px;
+            transition: transform 0.5s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            .bootstrap-foot {
+                color: #000000;
+                text-decoration: none;
+            }
+            
+        }
+    }
+}
+
+.imgs-contact-1 {
+    position: fixed;
+    bottom: 108px;
+    right: 472px;
+    z-index: 9999;
+    max-width: 223px;
+}
+
+.imgs-contact-2 {
+    position: fixed;
+    bottom: 200px;
+    right: 1580px;
+    z-index: 9999;
+    max-width: 500px;
+}
+
+.imgs-contact-3 {
+    position: fixed;
+    bottom: 150px;
+    right: 1183px;
+    z-index: 9999;
+    max-width: 200px;
+}
+
+.imgs-contact-4 {
+    position: fixed;
+    bottom: 669px;
+    right: 1056px;
+    z-index: 9999;
+    max-width: 396px;
+}
+
+.imgs-contact-5 {
+    position: fixed;
+    bottom: 200px;
+    right: 0px;
+    z-index: 9999;
+    max-width: 300px;
+}
+
+.imgs-contact-6 {
+    position: absolute;
+    bottom: 600px;
+    right: 200px;
+    z-index: -1;
+    max-width: 444px;
+}
+
+/* Animations */
+.imgs-contact-1,
+.imgs-contact-2,
+.imgs-contact-3,
+.imgs-contact-4,
+.imgs-contact-5{
+    z-index: 9999;
+    animation: myAnim 3s ease 0s 1 normal forwards;
+}
+
+.imgs-contact-6{
+    z-index: -1;
+    animation: myAnim 3s ease 0s 1 normal forwards;
+}

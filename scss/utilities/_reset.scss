@@ -2,3 +2,42 @@
     margin: 0;
     padding: 0;
 }
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h1 {
+    position: relative;
+    font-family: 'Emilea';
+    font-size: 50px;
+    font-weight: normal;
+    text-align: left;
+    color: #000000;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 5px;
+    font-weight: lighter;
+    opacity: 80%;
+}
+
+p {
+    padding-top: 10px;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+p:hover {
+    transform: scale(1.1);
+}
+
+h5 {
+    font-weight: lighter;
+    padding-top: 20px;
+    font-size: 50px;
+}

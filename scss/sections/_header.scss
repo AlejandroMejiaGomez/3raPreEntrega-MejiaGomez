@@ -1,0 +1,31 @@
+.navbar {
+    .burger-txt {
+        font-family: 'Emilea';
+        font-weight: bold;
+
+        .rotate {
+            animation: rotate 3s infinite linear;
+        }
+    }
+
+    .burger-txt-sls {
+        font-family: 'Emiliea';
+        font-weight: lighter;
+        font-size: 15px;
+    
+        .nav-item {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+    
+    .burger-icons {
+        opacity: 40%;
+        padding-right: 20px;
+    }
+
+
+}
+
+
+
