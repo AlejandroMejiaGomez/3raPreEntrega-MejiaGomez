@@ -277,11 +277,6 @@ sans-serif; */
   margin-right: 20px;
   margin-bottom: 200px; }
 
-.FlexNombre {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start; }
-
 .Sections {
   font-family: 'Open Sans';
   font-weight: bolder;
@@ -292,6 +287,71 @@ sans-serif; */
   margin-left: 40px;
   margin-top: 10px;
   margin-bottom: 10px; }
+
+.texto-inicial-general-acordion {
+  animation: myAnim 2s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion .contenedor-home-txt-about {
+    animation: myAnim 2s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion2 {
+  animation: myAnim 2.3s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion2 .contenedor-home-txt-about {
+    animation: myAnim 2.3s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion3 {
+  animation: myAnim 2.6s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion3 .contenedor-home-txt-about {
+    animation: myAnim 2.6s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion4 {
+  animation: myAnim 2.9s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion4 .contenedor-home-txt-about {
+    animation: myAnim 2.9s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion5 {
+  animation: myAnim 3.2s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion5 .contenedor-home-txt-about {
+    animation: myAnim 3.2s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion6 {
+  animation: myAnim 3.5s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion6 .contenedor-home-txt-about {
+    animation: myAnim 3.5s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion7 {
+  animation: myAnim 3.8s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion7 .contenedor-home-txt-about {
+    animation: myAnim 3.8s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion8 {
+  animation: myAnim 4.1s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion8 .contenedor-home-txt-about {
+    animation: myAnim 4.1s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion9 {
+  animation: myAnim 4.4s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion9 .contenedor-home-txt-about {
+    animation: myAnim 4.4s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion10 {
+  animation: myAnim 4.7s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion10 .contenedor-home-txt-about {
+    animation: myAnim 4.7s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion11 {
+  animation: myAnim 5s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion11 .contenedor-home-txt-about {
+    animation: myAnim 5s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion12 {
+  animation: myAnim 5.3s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion12 .contenedor-home-txt-about {
+    animation: myAnim 5.3s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion13 {
+  animation: myAnim 5.6s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion13 .contenedor-home-txt-about {
+    animation: myAnim 5.6s ease 0s 1 normal forwards; }
 
 .FlexIndexPadre {
   display: flex;
@@ -514,100 +574,327 @@ h5 {
   margin-bottom: -50px;
   color: black; }
 
-.grid-contacto {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 100%;
-  grid-auto-columns: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "formulario"; }
-  .grid-contacto .formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Emilea';
-    font-size: 15px;
-    font-weight: normal;
-    text-align: left;
-    text-transform: uppercase;
-    animation: myAnim 2s ease 0s 1 normal forwards;
-    margin-bottom: 354px; }
-    .grid-contacto .formulario .h1-contacto {
-      position: relative;
-      font-family: 'Emilea';
-      font-size: 100px;
-      font-weight: normal;
-      text-align: justify;
-      color: #000000;
-      margin-top: 350px;
-      margin-left: 50px;
-      margin-right: 50px;
-      margin-bottom: 0px;
-      animation: myAnim 2s ease 0s 1 normal forwards; }
-    .grid-contacto .formulario .p {
-      padding-top: 10px;
-      transition: transform 0.5s ease; }
-      .grid-contacto .formulario .p:hover {
-        transform: scale(1.1); }
-      .grid-contacto .formulario .p .bootstrap-foot {
-        color: #000000;
-        text-decoration: none; }
+* {
+  margin: 0;
+  padding: 0;
+  color: black; }
 
-.imgs-contact-1 {
-  position: fixed;
-  bottom: 108px;
-  right: 472px;
-  z-index: 9999;
-  max-width: 223px; }
+/* font-family: 'Cormorant Garamond',
+serif;
+font-family: 'Open Sans',
+sans-serif; */
+.FlexHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 200px; }
 
-.imgs-contact-2 {
-  position: fixed;
-  bottom: 200px;
-  right: 1580px;
-  z-index: 9999;
-  max-width: 500px; }
+.Sections {
+  font-family: 'Open Sans';
+  font-weight: bolder;
+  font-size: 12px;
+  text-decoration: none;
+  list-style: none;
+  margin-right: 20px;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
-.imgs-contact-3 {
-  position: fixed;
-  bottom: 150px;
-  right: 1183px;
-  z-index: 9999;
-  max-width: 200px; }
+.texto-inicial-general-acordion {
+  animation: myAnim 2s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion .contenedor-home-txt-about {
+    animation: myAnim 2s ease 0s 1 normal forwards; }
 
-.imgs-contact-4 {
-  position: fixed;
-  bottom: 669px;
-  right: 1056px;
-  z-index: 9999;
-  max-width: 396px; }
+.texto-inicial-general-acordion2 {
+  animation: myAnim 2.3s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion2 .contenedor-home-txt-about {
+    animation: myAnim 2.3s ease 0s 1 normal forwards; }
 
-.imgs-contact-5 {
-  position: fixed;
-  bottom: 200px;
-  right: 0px;
-  z-index: 9999;
-  max-width: 300px; }
+.texto-inicial-general-acordion3 {
+  animation: myAnim 2.6s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion3 .contenedor-home-txt-about {
+    animation: myAnim 2.6s ease 0s 1 normal forwards; }
 
-.imgs-contact-6 {
-  position: absolute;
-  bottom: 600px;
-  right: 200px;
-  z-index: -1;
-  max-width: 444px; }
+.texto-inicial-general-acordion4 {
+  animation: myAnim 2.9s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion4 .contenedor-home-txt-about {
+    animation: myAnim 2.9s ease 0s 1 normal forwards; }
 
-/* Animations */
-.imgs-contact-1,
-.imgs-contact-2,
-.imgs-contact-3,
-.imgs-contact-4,
-.imgs-contact-5 {
-  z-index: 9999;
-  animation: myAnim 3s ease 0s 1 normal forwards; }
+.texto-inicial-general-acordion5 {
+  animation: myAnim 3.2s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion5 .contenedor-home-txt-about {
+    animation: myAnim 3.2s ease 0s 1 normal forwards; }
 
-.imgs-contact-6 {
-  z-index: -1;
-  animation: myAnim 3s ease 0s 1 normal forwards; }
+.texto-inicial-general-acordion6 {
+  animation: myAnim 3.5s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion6 .contenedor-home-txt-about {
+    animation: myAnim 3.5s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion7 {
+  animation: myAnim 3.8s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion7 .contenedor-home-txt-about {
+    animation: myAnim 3.8s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion8 {
+  animation: myAnim 4.1s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion8 .contenedor-home-txt-about {
+    animation: myAnim 4.1s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion9 {
+  animation: myAnim 4.4s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion9 .contenedor-home-txt-about {
+    animation: myAnim 4.4s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion10 {
+  animation: myAnim 4.7s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion10 .contenedor-home-txt-about {
+    animation: myAnim 4.7s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion11 {
+  animation: myAnim 5s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion11 .contenedor-home-txt-about {
+    animation: myAnim 5s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion12 {
+  animation: myAnim 5.3s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion12 .contenedor-home-txt-about {
+    animation: myAnim 5.3s ease 0s 1 normal forwards; }
+
+.texto-inicial-general-acordion13 {
+  animation: myAnim 5.6s ease 0s 1 normal forwards; }
+  .texto-inicial-general-acordion13 .contenedor-home-txt-about {
+    animation: myAnim 5.6s ease 0s 1 normal forwards; }
+
+.FlexIndexPadre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 69px;
+  margin-bottom: 89px; }
+
+.FlexIndexHijo {
+  display: flex;
+  flex-direction: row;
+  font-weight: bolder;
+  align-items: center; }
+
+.FlexPadre {
+  display: flex;
+  flex-direction: column;
+  margin-top: -50px; }
+
+.FlexHijo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+.FlexRedes {
+  display: flex;
+  flex-direction: row; }
+
+h1 {
+  font-family: 'Cormorant Garamond';
+  font-size: 100px;
+  font-weight: lighter;
+  margin-left: 30px; }
+
+h2 {
+  font-family: 'Cormorant Garamond';
+  font-size: 50px;
+  font-weight: lighter;
+  margin-right: 30px; }
+
+h3 {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: bolder;
+  margin-left: 30px; }
+
+.p {
+  font-family: 'Open Sans';
+  font-size: 30px;
+  font-weight: light; }
+
+.Lenguaje {
+  font-family: 'Open Sans';
+  font-weight: lighter;
+  font-size: 30px;
+  font-style: italic; }
+
+.NyAnima {
+  animation: myAnim 2s ease 0s 1 normal forwards; }
+
+.box {
+  opacity: 0;
+  position: absolute; }
+
+.b1 {
+  animation: ani1 7s infinite; }
+
+.b2 {
+  animation: ani2 7s infinite; }
+
+.b3 {
+  animation: ani3 7s infinite; }
+
+.b4 {
+  animation: ani4 7s infinite; }
+
+.b5 {
+  animation: ani5 7s infinite; }
+
+@keyframes ani1 {
+  0% {
+    opacity: 0; }
+  10% {
+    opacity: 10; }
+  20% {
+    opacity: 0; } }
+
+@keyframes ani2 {
+  20% {
+    opacity: 0; }
+  30% {
+    opacity: 10; }
+  40% {
+    opacity: 0; } }
+
+@keyframes ani3 {
+  40% {
+    opacity: 0; }
+  50% {
+    opacity: 10; }
+  60% {
+    opacity: 0; } }
+
+@keyframes ani4 {
+  60% {
+    opacity: 0; }
+  70% {
+    opacity: 10; }
+  80% {
+    opacity: 0; } }
+
+@keyframes ani5 {
+  80% {
+    opacity: 0; }
+  90% {
+    opacity: 10; }
+  100% {
+    opacity: 0; } }
+
+.LineadeTexto {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 30px;
+  font-family: 'Open Sans';
+  font-weight: lighter;
+  outline: none;
+  width: 96%;
+  height: 100px;
+  background-color: transparent;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-top: 150px; }
+
+.BotonEnviar {
+  background-color: black;
+  color: white;
+  font-family: 'Cormorant Garamond';
+  font-weight: lighter;
+  font-size: 30px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  border-radius: 100px;
+  border-width: 1px;
+  transform: scale(1); }
+
+.BotonEnviar:hover {
+  transform: scale(0.7);
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.3, 0, 0.1, 1);
+  cursor: pointer; }
+
+.LinkRedesSociales {
+  text-decoration: none;
+  font-family: 'Cormorant Garamond';
+  color: black;
+  margin-left: 30px; }
+
+h4 {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: lighter; }
+
+.FooterNegrita {
+  font-weight: bolder; }
+
+h5 {
+  font-family: 'Open Sans';
+  font-size: 10px;
+  font-weight: bolder;
+  margin-right: 30px; }
+
+.FlexFooter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px; }
+
+.FlexFooter1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.FlexFooter2 {
+  display: flex;
+  flex-direction: row-reverse; }
+
+.LinkCookies {
+  text-decoration: none;
+  font-family: 'Cormorant Garamond';
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.LinkVolverArriba {
+  font-family: 'Open Sans';
+  font-weight: bolder;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px; }
+
+.HR {
+  border-color: #757575;
+  margin-left: 30px;
+  margin-right: 30px; }
+
+.ImgContenedorAcordeon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.ImgAcordeon {
+  max-height: 500px; }
+
+.accordion-h2 {
+  margin-top: -50px;
+  margin-bottom: -50px;
+  color: black; }
+
+.FlexFooterContacto {
+  margin-top: 88px; }
 
 .wrapper {
   height: 86vh;

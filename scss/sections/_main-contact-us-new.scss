@@ -167,7 +167,7 @@ sans-serif; */
 .FlexPadre {
     display: flex;
     flex-direction: column;
-    margin-top: 23px;
+    margin-top: -50px;
 }
 
 .FlexHijo {
@@ -216,6 +216,11 @@ h3 {
     font-weight: lighter;
     font-size: 30px;
     font-style: italic;
+
+}
+
+.NyAnima{
+    animation: myAnim 2s ease 0s 1 normal forwards;
 }
 
 .box {
@@ -316,7 +321,7 @@ h3 {
 .LineadeTexto {
     border: none;
     border-bottom: 1px solid black;
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Open Sans';
     font-weight: lighter;
     outline: none;
@@ -325,7 +330,7 @@ h3 {
     background-color: transparent;
     margin-bottom: 20px;
     margin-left: 30px;
-    margin-top: 122px;
+    margin-top: 150px;
 }
 
 .BotonEnviar {
@@ -411,7 +416,7 @@ h5 {
 }
 
 .HR {
-    border-color: black;
+    border-color: rgb(117, 117, 117);
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -430,4 +435,8 @@ h5 {
     margin-top: -50px;
     margin-bottom: -50px;
     color: black;
+}
+
+.FlexFooterContacto {
+    margin-top: 88px;
 }
